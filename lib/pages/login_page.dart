@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
     );
 
     //pop the loading circle
-    Navigator.of(context).pop();
+    Navigator.pop(context);
   }
 
   @override
